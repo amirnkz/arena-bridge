@@ -1,9 +1,8 @@
 {
   "unlockMinutes": 15,
   "targets": {
-    "*":       { "allow": ["~"] },
-    "vps":     { "allow": ["/data"] },
-    "mac":     { "allow": ["~/Downloads", "~/Desktop", "~/Documents", "~/Projects"] },
-    "android": { "allow": ["~/storage/shared", "~"] }
+    "*": { "allow": [] },
+    "vps": { "allow": ["/data"] },
+    "laptop": { "allow": ["~/Arena-Workspace"] }
   }
 }
